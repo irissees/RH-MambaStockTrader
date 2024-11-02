@@ -7,9 +7,6 @@ This project uses daily OHLC stock data to forcasts the next day's close price.
 It also uses 100 day linear regression as a feature in order to increase the accuracy of predictions. 
 
 
-#### Getting new data:
-To get up to date data, you must have a Nasdaq Data Link API and be subscribed to the Sharadar Core US Equities Bundle. This costs around 80$ a month so running this bot is not free. You must also be logged into Robinhood to get the most current data if the market is still open. 
-
 ## Strategy:
 The bot looks for crossovers using the actual price, predicted price and 100 day linear regression. 
 ### Buying:
@@ -23,3 +20,7 @@ Since being above the linear regression line indicates an uptrend, the bot waits
 
 ## Required: 
 PyTorch with CUDA enabled
+
+
+#### Getting new data:
+To get up to date data, you must have a Nasdaq Data Link API and be subscribed to the Sharadar Core US Equities Bundle. This costs around 80$ a month so running this bot is not free. You must also be logged into Robinhood to get the most current data if the market is still open. 
