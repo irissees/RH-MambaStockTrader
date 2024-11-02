@@ -1,0 +1,11 @@
+pandas
+matplotlib
+scikit-learn
+torch
+argparse
+tqdm
+numpy
+robin_stocks
+seaborn
+scipy
+dataclasses
