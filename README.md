@@ -9,6 +9,8 @@ It also uses 100 day linear regression as a feature in order to increase the acc
 
 ## Strategy:
 The bot looks for crossovers using the actual price, predicted price and 100 day linear regression. 
+While buying and holding the stock can be more profitable than using the signals to buy shares, this strategy really shines when you use its signals manually to buy options as its crossovers tend to predict short term volatility spikes as well.
+
 ### Buying:
 The price must first be below the linear regression line before buying.
 Since being below the linear regression line typically indicates a downtrend, the bot waits for the actual price to cross above the prediction price for an indicator of reversal. This means the price is moving faster than the bot is predicting and indicates the bearish trend fizzling out.
