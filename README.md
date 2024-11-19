@@ -1,7 +1,7 @@
 # RH-MambaStockTrader
 ## Stock trading bot that integrates MambaSSM with Robinhood. 
 
-This is a Python notebook that implements the [MambaStock source code](https://arxiv.org/abs/2402.18959) along with the RobinStocks module in order to trade stocks with artificial intelligence signaling. Mamba selective state modeling is a great trade off to the more popular Transformer model for time series forcasting because it is accurate and not nearly as computationally expensive.
+This is a Python notebook that implements the [MambaStock source code](https://arxiv.org/abs/2402.18959) along with the RobinStocks module in order to trade stocks with artificial intelligence signaling. Mamba selective state modeling is a great new model for time series forcasting because it is more accurate than generic LSTM and not nearly as computationally expensive as a Transformer.
 
 This project uses daily OHLC stock data to forcast the next day's close price. 
 It also uses 100 day linear regression as a feature in order to increase the accuracy of predictions. 
